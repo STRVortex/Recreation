@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 6000))
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6257927828"))
+OWNER_ID = int(getenv("OWNER_ID", "5960968099"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -33,7 +33,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/STRVortex/storm",
+    "https://github.com/STRVortex/Recreation",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "mainr")
 GIT_TOKEN = getenv(
@@ -79,21 +79,22 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/vsN.jpg"
+    "START_IMG_URL", "https://graph.org/file/2a8f51537c4b09def0b5a-686a24f38209600f34.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/9077cd2ba5818efef2d28.jpg"
+    "PING_IMG_URL", "https://graph.org/file/61e2f285f190e8c67326a-c775c820c6850351ee.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/eb1e2b58e17964083db73.jpg"
-STATS_IMG_URL = "https://graph.org/file/3e1a29249c83104c035af.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/ebc1cd4853f51d4fd7cdb.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/948c175c8bfb3d96080ad.jpg"
-STREAM_IMG_URL = "https://graph.org/file/e8311d4fff8527c550185.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/e8311d4fff8527c550185.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/e8311d4fff8527c550185.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/e8311d4fff8527c550185.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/e8311d4fff8527c550185.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/e8311d4fff8527c550185.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/a674bdb80cac21aa940e3-7f9337f221f533888a.jpg"
+STATS_IMG_URL = "https://graph.org/file/d27e3a4e6666c97e239e7-fd09816e4c54e7dc0c.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/c1733b944427e9d206369-150a4e4ba1752b4086.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/0e57a408587422ce7cd95-6c3eb9b7a0736300ed.jpg"
+STREAM_IMG_URL = "https://graph.org/file/0e57a408587422ce7cd95-6c3eb9b7a0736300ed.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+
 
 def time_to_seconds(time):
     stringt = str(time)
